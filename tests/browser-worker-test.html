@@ -1,0 +1,65 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Vista Worker Browser Tests</title>
+<pre id="results">Running…</pre>
+<script type="module">
+  import worker from '../worker.js';
+
+  const results = [];
+  const originalFetch = window.fetch;
+  const env = overrides => ({
+    APPS_SCRIPT_URL: 'https://example.com/apps-script',
+    APPS_SCRIPT_SECRET: 'integration-secret',
+    ATTACHMENT_SIGNING_SECRET: 'attachment-secret',
+    ASSETS: { fetch: () => new Response('asset') },
+    QUOTE_ATTACHMENTS: {
+      put: async () => {},
+      get: async () => null,
+      delete: async () => {}
+    },
+    ...overrides
+  });
+  const request = values => {
+    const form = new FormData();
+    Object.entries(values).forEach(([key, value]) => form.set(key, value));
+    return new Request('https://vista.example/api/quote', { method: 'POST', body: form });
+  };
+  const check = (name, condition, detail = '') => {
+    results.push({ name, passed: Boolean(condition), detail });
+  };
+
+  try {
+    let response = await worker.fetch(request({}), env());
+    let body = await response.json();
+    check('missing contact is rejected', response.status === 400 && body.ok === false, body.error);
+
+    let mappingChecked = false;
+    window.fetch = async (_url, options) => {
+      const sent = new URLSearchParams(String(options.body));
+      if (!mappingChecked) {
+        check('field mapping reaches Apps Script', sent.get('email') === 'contractor@example.com' && sent.get('integrationSecret') === 'integration-secret');
+        mappingChecked = true;
+      }
+      return new Response(JSON.stringify({ ok: true }), { status: 200 });
+    };
+    response = await worker.fetch(request({ email: 'contractor@example.com', materialRequirements: 'Strut channel' }), env());
+    body = await response.json();
+    check('email-only quote succeeds', response.status === 200 && body.ok === true);
+
+    response = await worker.fetch(request({ phone: '9295550198' }), env());
+    body = await response.json();
+    check('phone-only quote succeeds', response.status === 200 && body.ok === true);
+
+    const unsupported = new File(['test'], 'malware.exe', { type: 'application/octet-stream' });
+    response = await worker.fetch(request({ phone: '9295550198', attachment: unsupported }), env());
+    body = await response.json();
+    check('unsupported file is rejected', response.status === 400 && body.ok === false, body.error);
+  } catch (error) {
+    check('test runner', false, error.stack || error.message);
+  } finally {
+    window.fetch = originalFetch;
+  }
+
+  window.__workerTestResults = results;
+  document.getElementById('results').textContent = JSON.stringify(results, null, 2);
+</script>
