@@ -111,14 +111,21 @@ async function handleQuoteRequest(request, env, url) {
       redirect: 'follow'
     });
 
-    const result = await appsScriptResponse.json();
+    const responseText = await appsScriptResponse.text();
+    let result;
+    try {
+      result = JSON.parse(responseText);
+    } catch {
+      throw new Error(`Apps Script returned non-JSON (${appsScriptResponse.status}): ${responseText.slice(0, 200)}`);
+    }
     if (!appsScriptResponse.ok || !result.ok) {
       throw new Error(result.error || `Apps Script returned ${appsScriptResponse.status}`);
     }
 
     return jsonResponse({ ok: true, warning: result.warning || '' });
   } catch (error) {
-    console.error('Quote submission failed:', error);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    console.error(`Quote submission failed: ${errorMessage}`);
     if (attachmentKey && env.QUOTE_ATTACHMENTS) {
       await env.QUOTE_ATTACHMENTS.delete(attachmentKey).catch(() => {});
     }
