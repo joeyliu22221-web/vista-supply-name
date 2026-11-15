@@ -1,174 +1,735 @@
-<!DOCTYPE html><html class="scroll-smooth" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>Vista Material Supply | Home</title><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=Inter:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..24,400,0..1,0" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;background-color:#F7F7F5;color:#24282B;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
-  tailwind.config = {darkMode: "class", theme: {extend: {colors: {surface: "#fbf8ff", "surface-card": "#FFFFFF", "surface-alt": "#F3F3F0", border: "#E5E5E2", "border-subtle": "#EDEDEA", primary: "#000000", "primary-hover": "#16191B", secondary: "#974800", "secondary-light": "#6B7C85", accent: "#2A4B7C", "badge-orange": "#E35A1E", "secondary-fixed": "#ffdbc7", "surface-variant": "#e3e1ec", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "error-dim": "#9f0519", "tertiary-container": "#111c2d", "secondary-dim": "#005480", "on-primary-fixed": "#1b1b1e", background: "#fbf8ff", "surface-container": "#eeedf7", error: "#ba1a1a", tertiary: "#000000", "primary-fixed": "#e4e1e6", "surface-container-highest": "#e3e1ec", "inverse-primary": "#c8c5ca", "on-surface-variant": "#47464b", "on-secondary-container": "#652e00", "surface-dim": "#dad9e3", "on-tertiary-container": "#79849a", "on-secondary-fixed": "#311300", "tertiary-fixed-dim": "#bcc7de", "on-tertiary": "#ffffff", "surface-container-high": "#e8e7f1", "on-tertiary-fixed-variant": "#3c475a", "surface-tint": "#5f5e61", "on-error-container": "#93000a", "primary-fixed-dim": "#c8c5ca", "on-primary-fixed-variant": "#47464a", "outline-variant": "#c8c5cb", "primary-container": "#1b1b1e", outline: "#77767b", "inverse-surface": "#2f3038", "on-secondary-fixed-variant": "#733500", "inverse-on-surface": "#f1effa", "tertiary-fixed": "#d8e3fb", "tertiary-dim": "#4242aa", "on-tertiary-fixed": "#111c2d", "on-primary-container": "#858387", "on-secondary": "#ffffff", "error-container": "#ffdad6", "surface-container-low": "#f4f2fd", "surface-bright": "#fbf8ff", "on-primary": "#ffffff", "secondary-container": "#fd8a35", "secondary-fixed-dim": "#ffb689", "primary-dim": "#005676", "on-surface": "#1a1b22", "on-background": "#1a1b22"}, fontFamily: {sans: ["Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"], headline: ["Space Grotesk"], display: ["Space Grotesk"], body: ["Inter"], label: ["JetBrains Mono"], "headline-sm": ["Space Grotesk"], "headline-lg-mobile": ["Space Grotesk"], "spec-num": ["JetBrains Mono"], "label-sm": ["JetBrains Mono"], "label-md": ["JetBrains Mono"], "headline-md": ["Space Grotesk"], "body-lg": ["Inter"], "body-sm": ["Inter"], "headline-xl": ["Space Grotesk"], "headline-lg": ["Space Grotesk"], "body-md": ["Inter"], "headline-xl-mobile": ["Space Grotesk"]}, fontSize: {"headline-sm": ["18px", {lineHeight: "24px", fontWeight: "600"}], "headline-lg-mobile": ["24px", {lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "700"}], "spec-num": ["14px", {lineHeight: "18px", fontWeight: "700"}], "label-sm": ["11px", {lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "500"}], "label-md": ["13px", {lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600"}], "headline-md": ["22px", {lineHeight: "28px", fontWeight: "600"}], "body-lg": ["16px", {lineHeight: "24px", fontWeight: "400"}], "body-sm": ["12px", {lineHeight: "16px", fontWeight: "400"}], "headline-xl": ["40px", {lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "700"}], "headline-lg": ["32px", {lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700"}], "body-md": ["14px", {lineHeight: "20px", fontWeight: "400"}], "headline-xl-mobile": ["30px", {lineHeight: "36px", letterSpacing: "-0.01em", fontWeight: "700"}]}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"space-xs": "0.25rem", gutter: "1rem", "space-md": "0.75rem", "margin-mobile": "1rem", margin: "2rem", "gutter-mobile": "0.75rem", "space-sm": "0.5rem", "space-xl": "2rem", "space-lg": "1.25rem"}}}}
-</script><link as="image" fetchpriority="high" href="assets/vista-hero-rooftop.jpg" rel="preload"><style>
-  :root {
-    --home-hero-height: 700px;
-    --home-hero-position: 50% 52%;
-    --home-hero-overlay-start: 0.76;
-    --home-hero-overlay-mid: 0.48;
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Vista Material Supply — Built by Contractors. For Contractors.</title>
+<meta name="description" content="Construction materials supplier serving Greater New York. Strut channel, threaded rod, snap-lock ductwork and PVC air grilles — stocked in Glen Cove, NY for pickup or delivery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+    --max:1180px;
   }
-  .home-hero {
-    min-height: var(--home-hero-height);
-    background-image:
-      linear-gradient(90deg, rgba(3, 10, 18, var(--home-hero-overlay-start)) 0%, rgba(3, 10, 18, var(--home-hero-overlay-mid)) 45%, rgba(3, 10, 18, 0.16) 76%, rgba(3, 10, 18, 0.10) 100%),
-      linear-gradient(180deg, rgba(3, 10, 18, 0.30) 0%, rgba(3, 10, 18, 0.04) 36%, rgba(3, 10, 18, 0.24) 100%),
-      url('assets/vista-hero-rooftop.jpg');
-    background-size: cover;
-    background-position: var(--home-hero-position);
-    background-repeat: no-repeat;
+/* Black & white only — one palette, no colour anywhere.
+     Big blocks are black; the rest of the canvas is continuous white.
+     --rust is kept as the variable name for the accent so every existing
+     component (buttons, numbers, links) resolves to black. */
+  html{
+    --ink:#111111; --ink-2:#000000; --paper:#ffffff;
+    --concrete:#ffffff; --concrete-2:#ffffff;
+    --steel:#5c5c5c; --steel-light:#9a9a9a; --line:#dcdcdc;
+    --rust:#111111; --rust-dark:#000000; --accent-soft:#ffffff;
   }
-  .home-hero__content {
-    min-height: calc(var(--home-hero-height) - 80px);
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Inter",system-ui,sans-serif;background:#fff;color:var(--ink);-webkit-font-smoothing:antialiased}
+h1,h2,h3,
+button,[role="button"]{min-height:44px;cursor:pointer}
+a{color:inherit}
+::selection{background:var(--rust);color:#fff}
+main{max-width:var(--max);margin:0 auto;padding:20px 20px 64px}
+.site{font-size:14px;color:var(--ink);background:#fff;position:relative}
+/* Header — a transparent overlay on top of the hero photo. The
+     company logo is a transparent-background PNG, so it sits directly
+     on the photo (no bar, no plate, no box behind it) in its own navy
+     blue and grey; navigation links are white text on the right, kept
+     readable by the hero's strengthened top scrim. */
+  .site-nav{position:absolute;top:0;left:0;right:0;z-index:6;display:flex;align-items:center;gap:18px;padding:16px 22px;background:transparent;flex-wrap:wrap;color:#fff}
+.site-logo{display:block;line-height:0;text-decoration:none}
+.site-logo img{display:block;height:56px;width:auto}
+.site-links{display:flex;gap:18px;margin-left:auto;font-size:12.5px;font-weight:600;color:#fff;flex-wrap:wrap;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+.site-links span{padding:6px 0}
+.site-links .here{color:#fff;border-bottom:2px solid #fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 13px "Inter";padding:12px 18px;border:1px solid var(--ink);background:var(--ink);color:#fff;text-decoration:none;min-height:44px}
+.btn.rust{background:var(--rust);border-color:var(--rust)}
+.btn.rust:hover{background:var(--rust-dark)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.light{background:#fff;color:var(--ink);border-color:#fff}
+.btn.small{padding:9px 14px;min-height:38px;font-size:12px}
+/* Hero — real photo, full-bleed, with a black scrim so the white
+     headline and nav stay readable over bright photos. The top of the
+     scrim is stronger than the rest: the header overlays this band, and
+     the navy logo plus white links both have to read against the photo. */
+  .hero{position:relative;background:#111;color:#fff;overflow:hidden;min-height:620px;display:flex;flex-direction:column}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.hero-img.field{object-position:center 38%}
+.hero-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.72) 0,rgba(0,0,0,.55) 18%,rgba(0,0,0,.42) 34%,rgba(0,0,0,.48) 58%,rgba(0,0,0,.82) 100%)}
+.hero-in{text-shadow:0 1px 14px rgba(0,0,0,.35)}
+.hero-in{position:relative;padding:132px 22px 64px;max-width:720px;flex:1}
+
+.hero h2{font-size:clamp(38px,5.6vw,62px);line-height:1.02;margin:0 0 18px;font-weight:700}
+.hero p.lede{margin:0 0 26px;color:#e3e3e3;font-size:16px;line-height:1.6;max-width:500px}
+.hero-ctas{display:flex;gap:10px;flex-wrap:wrap}
+.infobar{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;padding:58px 22px 6px}
+.infobar .n{font-family:"Inter";color:var(--rust);font-weight:700;font-size:15px}
+.infobar h3{font-size:20px;margin:7px 0 8px;line-height:1.2;font-weight:700}
+.infobar p{margin:0;font-size:15px;line-height:1.6;color:#2b2b2b;font-weight:500}
+.infobar a{font-size:14px;font-weight:700;color:var(--rust);text-decoration:none;display:inline-block;margin-top:10px}
+.sec{padding:64px 22px 12px}
+.sec.band{background:#ffffff;border-top:1px solid var(--line);padding-bottom:62px;margin-top:58px}
+.sec.dark{background:var(--ink);color:#fff;padding-bottom:62px;margin-top:58px}
+.sec.dark .sec-head p{color:#c9c9c9}
+.sec-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:6px}
+.sec-head .no{font-family:"Inter";font-weight:700;color:var(--rust);font-size:13px}
+.sec-head h3{font-size:clamp(26px,3.4vw,36px);margin:0;line-height:1.05}
+.sec-head p{width:100%;margin:2px 0 0;color:#555555;font-size:13.5px;line-height:1.6;max-width:560px}
+/* Products — two per row, images large so the product reads clearly.
+     The supplied photos are white-background product shots in mixed
+     proportions (square, portrait, landscape), so each image sits in a
+     square area with object-fit:contain — nothing is cropped. The shots
+     blend into the white canvas; a hairline border only marks the edge
+     for near-white products like the PVC grille. */
+  .prod-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:48px 36px;margin-top:30px}
+.prod{padding:0}
+.prod-img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;border:1px solid var(--line)}
+.prod h4{font-family:"Inter";font-size:19px;margin:18px 0 5px;line-height:1.25}
+.prod p{margin:0;font-size:13.5px;color:#555555;line-height:1.6;max-width:420px}
+.prod-actions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0;align-items:stretch}
+.prod-actions .btn{flex:1 1 auto;text-align:center;white-space:nowrap}
+.spec-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);align-items:center}
+.spec-actions .note{font-size:11.5px;color:var(--steel);line-height:1.5}
+/* Product Specifications — four stacked blocks, one per product.
+     No cards: blocks sit directly on the white canvas, separated only
+     by a hairline and generous white space, same as the rest of Home. */
+  .spec-block{border-top:1px solid var(--line);padding:38px 0 10px;margin-top:38px}
+.spec-block-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+.spec-block-head .spec-no{font-family:"Inter";font-weight:700;font-size:12px;letter-spacing:.08em;color:var(--steel)}
+.spec-block-head h4{font-family:"Inter";font-size:clamp(21px,2.6vw,26px);margin:0;line-height:1.15}
+table.spec{width:100%;border-collapse:collapse;font-size:12.5px}
+table.spec th{text-align:left;font-weight:600;color:var(--steel);padding:7px 10px 7px 0;border-top:1px solid var(--line);width:44%}
+table.spec td{padding:7px 0;border-top:1px solid var(--line);font-weight:600}
+/* PVC grille — simple stacked structure, as requested:
+     TOP: one carousel. MIDDLE: key properties as short text lines.
+     BOTTOM: Request a Quote. No side column, no separate chart panel.
+     The rebuilt size chart lives INSIDE the carousel as its last two
+     slides (Supply Air, then Return Air), built as real tables in the
+     page: Length and Width in inches only — no cost, no cm. */
+  table.chart{width:100%;border-collapse:collapse;font-size:13px}
+table.chart th{text-align:left;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--steel);padding:6px 8px 6px 0;border-bottom:2px solid var(--ink)}
+table.chart td{padding:6px 8px 6px 0;border-top:1px solid var(--line);font-weight:600}
+.grille-stack{margin-top:20px;max-width:640px}
+.grille-stack .carousel{margin-top:0}
+.carousel-slide--chart{padding:20px 18px 2px}
+.chart-slide-head{margin:24px 0 10px}
+.chart-slide-head b{font-family:"Inter";font-size:19px;letter-spacing:.02em;display:block;line-height:1.2}
+.chart-slide-head span{font-size:12px;color:var(--steel);letter-spacing:.03em}
+.carousel-slide--chart figcaption{min-height:0;padding:12px 0 14px;margin-top:12px;border-top:1px solid var(--line)}
+.grille-props{margin-top:24px}
+.grille-props .props-label{font-family:"Inter";font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--steel);margin:0 0 4px}
+.carousel{margin-top:22px;border:1px solid var(--line);background:#fff}
+.carousel-stage{position:relative}
+.carousel-slide{display:none;margin:0}
+.carousel-slide.is-active{display:block}
+.carousel-slide img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#fff}
+.carousel-slide figcaption{padding:10px 12px 4px;font-size:12.5px;line-height:1.55;color:#3f3f3f;min-height:66px}
+.carousel-slide figcaption b{display:block;font-size:12.5px;color:var(--ink)}
+.carousel-count{position:absolute;top:10px;left:10px;background:#111;color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em;padding:5px 9px;z-index:2}
+/* On-image arrows — small chevron buttons sitting on the left and
+     right edges of the picture itself, so the carousel can be flipped
+     without going down to the controls below. */
+  .carousel-arrow{position:absolute;top:42%;transform:translateY(-50%);z-index:3;width:44px;height:44px;min-height:44px;border:1px solid var(--ink);background:rgba(255,255,255,.94);color:var(--ink);font-size:26px;line-height:1;display:grid;place-items:center;padding:0 0 3px;box-shadow:0 1px 8px rgba(0,0,0,.22)}
+.carousel-arrow--prev{left:10px}
+.carousel-arrow--next{right:10px}
+.carousel-arrow:hover,.carousel-arrow:focus-visible{background:var(--ink);color:#fff}
+/* The Queens jobsite slide is a taller 2:3 collage — show it whole
+     inside the standard frame instead of cropping the panels. */
+  .carousel-slide--contain img{object-fit:contain}
+.carousel-controls{display:flex;align-items:center;gap:10px;padding:10px 12px 12px;border-top:1px solid var(--line)}
+.carousel-btn{width:44px;height:44px;flex:none;border:1px solid var(--ink);background:#fff;color:var(--ink);font-size:18px;line-height:1;display:grid;place-items:center;padding:0}
+.carousel-btn:hover,.carousel-btn:focus-visible{background:var(--ink);color:#fff}
+.carousel-dots{display:flex;gap:6px;flex:1;min-width:0;justify-content:center;align-items:center}
+.carousel-dot{appearance:none;width:24px;height:44px;min-height:44px;border:0;background:transparent;padding:0;display:grid;place-items:center;flex:0 1 24px}
+.carousel-dot i{display:block;width:100%;height:4px;background:var(--line)}
+.carousel-dot[aria-current="true"] i{background:var(--ink)}
+.carousel-dot:hover i{background:var(--steel)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:24px}
+.two-col>div{padding:0}
+.two-col h4{font-family:"Inter";font-size:18px;margin:0 0 8px}
+.two-col p{font-size:13px;line-height:1.65;margin:0;color:inherit;opacity:.92}
+.area-list{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.area-list li{font-size:11.5px;font-weight:600;border:1px solid rgba(255,255,255,.4);padding:6px 10px;background:transparent;color:#fff}
+.tick-list{list-style:none;margin:12px 0 0;padding:0;font-size:13px;line-height:1.5}
+.tick-list li{padding:7px 0 7px 22px;position:relative;border-top:1px solid rgba(255,255,255,.14)}
+.tick-list li::before{content:"";position:absolute;left:2px;top:13px;width:9px;height:9px;background:#fff}
+.job-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:26px}
+.job{margin:0}
+.job figcaption{padding:10px 2px 2px;font-size:12px;line-height:1.55;color:#3f3f3f}
+.job figcaption b{display:block;font-size:12.5px;color:var(--ink)}
+.job figcaption .fmt{color:var(--steel);font-size:11px}
+.wh-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:26px}
+/* Warehouse photo pair — two portrait photos side by side, shown
+     full at their natural 3:4 ratio (no cropping), with one shared
+     caption below the pair. Stacks to one column on narrow frames. */
+  .wh-pair{margin:0}
+.wh-photo{display:block;width:100%;height:auto;background:#fff}
+.wh-caption{padding:14px 2px 2px;font-size:13.5px;line-height:1.6;color:#3f3f3f;max-width:680px}
+/* Warehouse stock collage — a single 2x2 portrait photo below the
+     forklift pair. Shown whole at its natural ratio (height:auto, no
+     object-fit crop) so none of the four panels is cut; width is held
+     to a readable column rather than stretched full-bleed. */
+  .wh-single{margin:36px 0 0;max-width:660px}
+.wh-single .wh-photo{aspect-ratio:1206/1808}
+/* Jobsite photo — first filled slot in the job grid: a vertical
+     2-panel collage shown whole at its natural ratio (height:auto,
+     no object-fit crop) so neither panel is cut. */
+  .job-photo{display:block;width:100%;height:auto;aspect-ratio:1206/1808;background:#fff}
+.quote{background:var(--ink);color:#fff;padding:68px 22px 72px;margin-top:64px}
+.quote h3{font-size:clamp(22px,3vw,30px);margin:0 0 6px}
+.quote>p{color:#c9c9c9;font-size:13.5px;margin:0 0 20px;max-width:520px;line-height:1.6}
+.qgrid{display:grid;grid-template-columns:1fr 1fr;gap:22px 30px;max-width:640px}
+.qfield{background:transparent;border:0;border-bottom:1px solid #4c4c4c;padding:12px 2px;font-size:12.5px;color:#8f8f8f}
+.qfield b{display:block;color:#fff;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;font-weight:700}
+.qfield.full{grid-column:1/-1}
+.quote .btn{margin-top:14px}
+.quote-note{font-size:11px;color:#8f8f8f;margin-top:12px}
+/* Footer — one solid black block, three columns, identical on both
+     pages. Stacks to a single column on narrow frames. */
+  .site-foot{background:#000;color:#fff;padding:52px 22px 30px}
+.foot-grid{display:grid;grid-template-columns:1.2fr .8fr 1fr;gap:40px}
+.foot-name{font-family:"Inter";font-weight:700;font-size:16px;letter-spacing:.05em;margin:0}
+.foot-tag{font-size:14px;font-weight:600;line-height:1.5;margin:12px 0 6px;color:#fff}
+.foot-sub{font-size:13px;color:#b9b9b9;margin:0}
+.foot-head{font-family:"Inter";font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#b9b9b9;margin:0 0 14px}
+.foot-links{list-style:none;margin:0;padding:0}
+.foot-links li{margin:0 0 10px}
+.foot-links a{font-size:14.5px;font-weight:600;color:#fff;text-decoration:none}
+.foot-links a:hover{text-decoration:underline;text-underline-offset:4px}
+.foot-contact{list-style:none;margin:0;padding:0;font-size:14.5px;line-height:1.55}
+.foot-contact li{margin:0 0 10px}
+.foot-contact a{color:#fff;text-decoration:none;font-weight:600}
+.foot-contact a:hover{text-decoration:underline;text-underline-offset:4px}
+.foot-bottom{border-top:1px solid #333;margin-top:38px;padding-top:20px;font-size:12px;color:#9a9a9a}
+@media (max-width:760px){
+    .site-links{display:none}
+    .hero{min-height:540px}
+    .hero-in{padding:108px 18px 44px}
+    .site-logo img{height:44px}
+    .infobar{grid-template-columns:1fr 1fr}
+    .prod-grid{grid-template-columns:1fr}
+    .spec-wrap,.two-col,.wh-grid{grid-template-columns:1fr}
+    .job-grid{grid-template-columns:1fr}
+    .prod-actions{flex-direction:column}
+    .prod-actions .btn{width:100%}
+    .foot-grid{grid-template-columns:1fr;gap:30px}
   }
-  @media (max-width: 767px) {
-    :root {
-      --home-hero-height: 600px;
-      --home-hero-position: 56% center;
-      --home-hero-overlay-start: 0.78;
-      --home-hero-overlay-mid: 0.56;
-    }
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media (max-width:760px){
+
+    .qgrid{grid-template-columns:1fr}
   }
-</style><style>.product-carousel-slide img{display:block;width:100%;height:100%;object-fit:cover;}</style></head><body class="bg-white font-sans text-primary antialiased min-h-screen flex flex-col" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"><section aria-labelledby="home-hero-title" class="home-hero relative isolate w-full overflow-hidden bg-slate-900 text-white">
-<header class="relative z-20 border-b border-white/25">
-  <div class="max-w-7xl mx-auto h-20 px-6 sm:px-8 flex items-center justify-between">
-    <a aria-label="Vista Material Supply home" class="flex items-center" href="index.html">
-      <img alt="Vista Material Supply" class="h-8 w-auto max-w-[132px] sm:h-11 sm:max-w-[190px] shrink-0 object-contain" src="assets/vista-material-supply-logo-horizontal.png">
-    </a>
-    <nav aria-label="Primary navigation" class="flex items-center gap-1 sm:gap-2">
-      <a aria-current="page" class="px-2 sm:px-3 py-2 text-xs sm:text-sm font-semibold text-white border-b border-white transition-colors" data-path="home" href="index.html">Home</a>
-      <a class="px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium text-white/90 hover:text-white transition-colors" data-path="in-the-field" href="in-the-field.html">In the Field</a>
-      <a class="px-2 sm:px-4 py-2 text-xs sm:text-sm font-semibold text-white border border-white/80 hover:bg-white hover:text-black transition-colors" data-path="get-a-quote" href="#quote-form">Get a Quote</a>
-    </nav>
-  </div>
-</header>
-<div class="home-hero__content relative z-10 max-w-7xl mx-auto px-6 sm:px-8 flex items-center">
-  <div class="max-w-3xl pb-8 sm:pb-10">
-    <p class="mb-5 text-xs sm:text-sm font-bold tracking-[0.18em] uppercase text-white/90">Serving Greater New York and Surroundings</p>
-    <h1 class="text-[42px] leading-[1.02] sm:text-6xl lg:text-[68px] lg:leading-[1.02] font-bold tracking-[-0.035em] text-white" id="home-hero-title">Built by Contractors.<br>For Contractors.</h1>
-    <p class="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-white/90">Building materials backed by real jobsite experience. Serving contractors across NYC, Long Island, and surrounding markets.</p>
-    <div class="mt-8 flex flex-wrap gap-3">
-      <a class="inline-flex min-h-12 items-center justify-center bg-white px-6 py-3 text-sm font-bold text-black hover:bg-neutral-100 transition-colors" href="#quote-form">Request a Quote</a>
-      <a class="inline-flex min-h-12 items-center justify-center border border-white px-6 py-3 text-sm font-bold text-white hover:bg-white hover:text-black transition-colors" href="#our-products">Explore Products</a>
-    </div>
-  </div>
+
+  /* ===== Real-site adaptations (preview frame removed) ===== */
+  /* Full-width page: white sections capped at 1180px; hero and dark
+     bands bleed full width with their content capped instead. */
+  .infobar,.sec{max-width:1180px;margin-left:auto;margin-right:auto}
+  .sec.dark{max-width:none}
+  .sec.dark>*,.quote>*,.site-foot>*{max-width:1136px;margin-left:auto;margin-right:auto}
+  .hero-in{max-width:1180px;margin-left:auto;margin-right:auto}
+  .hero h2{max-width:720px}
+  .site-nav{max-width:1180px;margin-left:auto;margin-right:auto}
+  .site-links a{padding:6px 0;text-decoration:none}
+  .site-links a.here{border-bottom:2px solid #fff}
+  /* Utility classes the preserved form JS toggles (no Tailwind here). */
+  .hidden{display:none!important}
+  .opacity-50{opacity:.5}
+  .pointer-events-none{pointer-events:none}
+  /* Real quote form fields, styled like the preview mock. */
+  .qfield label{display:block;color:#fff;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;font-weight:700}
+  .qfield input[type=text],.qfield input[type=email],.qfield input[type=tel]{width:100%;background:transparent;border:0;border-bottom:1px solid #4c4c4c;padding:10px 2px;font-size:13.5px;color:#fff;outline:none;border-radius:0}
+  .qfield textarea{width:100%;background:transparent;border:0;border-bottom:1px solid #4c4c4c;padding:10px 2px;font-size:13.5px;line-height:1.6;color:#fff;outline:none;border-radius:0;resize:vertical;min-height:96px}
+  .qfield input:focus,.qfield textarea:focus{border-bottom-color:#fff}
+  .qfield input::placeholder,.qfield textarea::placeholder{color:#8f8f8f}
+  .qfield input[aria-invalid="true"]{border-bottom-color:#ff6b6b}
+  .qfield .file-box{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:16px 12px;border:1px dashed #4c4c4c;color:#c9c9c9;cursor:pointer;text-align:center}
+  .qfield .file-box:hover{border-color:#fff}
+  .qfield .file-box .file-hint{font-size:11px;color:#8f8f8f}
+  .q-error{display:block;font-size:12px;line-height:1.5;color:#ff9a9a;margin:8px 0 0}
+  .form-success{padding:8px 0}
+  .form-success .form-success-title{font-size:16px;font-weight:700;color:#fff;margin:0 0 6px}
+  .form-success p{color:#c9c9c9;font-size:13.5px;line-height:1.6;margin:0 0 14px}
+  .form-success-again{background:none;border:0;color:#fff;font:700 13px "Inter",sans-serif;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:0}
+  .border-red-700{border-bottom-color:#ff6b6b}
+</style>
+</head>
+<body>
+<div class="site">
+        <div class="site-nav">
+          <a class="site-logo" href="index.html" aria-label="Vista Material Supply — Home"><img src="assets/vista-logo-text-only.png" alt="Vista Material Supply" /></a>
+          <div class="site-links"><a class="here" href="index.html">Home</a><a href="#products-home">Products</a><a href="in-the-field.html">In the Field</a><a href="#area-home">Service Area</a></div>
+        </div>
+
+        <div class="hero">
+          <img class="hero-img" src="assets/hero-home-warehouse.jpg" alt="Inside the Vista Material Supply warehouse — racks and pallets of ductwork and material stocked for pickup and delivery" />
+          <div class="hero-scrim" aria-hidden="true"></div>
+          <div class="hero-in">
+            <h2>Built by Contractors. For Contractors.</h2>
+            <p class="lede">The materials we sell are the materials we install on our own jobs. Stocked in Glen Cove, NY, and ready for pickup or delivery across NYC, Long Island, and surrounding markets.</p>
+            <div class="hero-ctas">
+              <a class="btn light" href="#quote-home">Request a Quote →</a>
+              <a class="btn ghost" href="#products-home" style="color:#fff;border-color:#fff">See Products</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="infobar" aria-label="Key information">
+          <article><span class="n">01</span><h3>Our Products</h3><p>Strut channel, threaded rod, snap-lock ductwork and supply/return grilles, plus accessories like insulation tape and electrical conduit etc.</p><a href="#products-home">Browse products ↓</a></article>
+          <article><span class="n">02</span><h3>Service Area</h3><p>NYC, Long Island, New Jersey, Connecticut and nearby. Send a quote to confirm delivery.</p><a href="#area-home">See the area ↓</a></article>
+          <article><span class="n">03</span><h3>Pickup &amp; Delivery</h3><p>Pick up at our Glen Cove, NY warehouse, or have it delivered to your job site.</p><a href="#area-home">How it works ↓</a></article>
+          <article><span class="n">04</span><h3>Get a Quote</h3><p>Send sizes and quantities. One form, straight to our team.</p><a href="#quote-home">Request a quote ↓</a></article>
+        </div>
+
+        <div class="sec" id="products-home">
+          <div class="sec-head"><span class="no">01</span><h3>Our Products</h3><p>Four core lines. No catalogue filler — just what we stock and install every week. Photos are the actual products, shown large so the detail reads clearly.</p></div>
+          <div class="prod-grid">
+            <div class="prod">
+              <img class="prod-img" src="assets/product-strut-channel.jpg" alt="Strut channel — galvanized steel channel with slotted holes, end profile showing the C-section" />
+              <h4>Strut Channel</h4><p>14 ga pre-galvanized. 1-5/8″ × 1-5/8″ and 1-5/8″ × 13/16″, in 10′ lengths.</p>
+              <div class="prod-actions"><a class="btn ghost small" href="#spec-strut">View Specifications</a><a class="btn rust small" href="#quote-home">Request a Quote</a></div>
+            </div>
+            <div class="prod">
+              <img class="prod-img" src="assets/product-threaded-rod.jpg" alt="Threaded rod — full-length steel rod with continuous thread" />
+              <h4>Threaded Rod</h4><p>3/8″ and 1/2″ diameters, in 6′ lengths — for hangers and trapeze supports.</p>
+              <div class="prod-actions"><a class="btn ghost small" href="#spec-rod">View Specifications</a><a class="btn rust small" href="#quote-home">Request a Quote</a></div>
+            </div>
+            <div class="prod">
+              <img class="prod-img" src="assets/product-ductwork.jpg" alt="Two-piece snap-lock rectangular ductwork — galvanized rectangular duct section with snap-lock seams" />
+              <h4>Two-Piece Snap-Lock Rectangular Ductwork</h4><p>Easier transportation and quick assembly on job sites.</p>
+              <div class="prod-actions"><a class="btn ghost small" href="#spec-duct">View Specifications</a><a class="btn rust small" href="#quote-home">Request a Quote</a></div>
+            </div>
+            <div class="prod">
+              <img class="prod-img" src="assets/product-pvc-grilles.jpg" alt="PVC air grille — white rectangular grille with vertical louvres" />
+              <h4>PVC Supply/Return Air Grilles</h4><p>Made from durable PVC for long-lasting performance and reduced condensation.</p>
+              <div class="prod-actions"><a class="btn ghost small" href="#spec-grille">View Specifications</a><a class="btn rust small" href="#quote-home">Request a Quote</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec band" id="specs-home">
+          <div class="sec-head"><span class="no">02</span><h3>Product Specifications</h3><p>One block per product — photos and key specs first, then a quote button for that product.</p></div>
+
+          <article class="spec-block" id="spec-strut">
+            <div class="spec-block-head"><span class="spec-no">01 / 04</span><h4>Strut Channel</h4></div>
+            <div class="grille-stack">
+                <div class="carousel" aria-label="Strut channel — single product photo, shown without a caption">
+                  <div class="carousel-stage">
+                    <figure class="carousel-slide carousel-slide--contain is-active" style="margin:0">
+                      <img src="assets/product-strut-channel.jpg" alt="Strut channel — pre-galvanized steel channel with slotted holes, end profile showing the C-section" />
+                    </figure>
+                  </div>
+                </div>
+                <div class="grille-props">
+                  <p class="props-label">Key Properties</p>
+                  <table class="spec">
+                    <tr><th>Gauge Options</th><td>14 Ga</td></tr>
+                    <tr><th>Dimensions</th><td>1-5/8″ Width × 13/16″ Height (Shallow / Half-Slot) + 1-5/8″ × 1-5/8″ Standard</td></tr>
+                    <tr><th>Length</th><td>10 ft</td></tr>
+                    <tr><th>Finish</th><td>Pre-Galvanized Zinc</td></tr>
+                    <tr><th>Packaging / Bundling</th><td>50 pcs / Bundle</td></tr>
+                  </table>
+                  <div class="spec-actions">
+                    <a class="btn rust" href="#quote-home">Request a Quote — Strut Channel →</a>
+                  </div>
+                </div>
+            </div>
+          </article>
+
+          <article class="spec-block" id="spec-rod">
+            <div class="spec-block-head"><span class="spec-no">02 / 04</span><h4>Threaded Rod</h4></div>
+            <div class="grille-stack">
+                <div class="carousel" id="rodCarousel" aria-roledescription="carousel" aria-label="Threaded rod — product and job site photos in one carousel, one slide shown at a time">
+                  <div class="carousel-stage">
+                    <figure class="carousel-slide carousel-slide--contain is-active">
+                      <img src="assets/product-threaded-rod.jpg" alt="Threaded rod 3/8 inch and 1/2 inch UNC coarse thread for pipe and duct hanging" />
+                      <figcaption><b>Threaded Rod</b>Threaded rod in 3/8″ and 1/2″ UNC coarse thread.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img src="assets/spec-rod-fire-pipe-queens.jpg" alt="Threaded rod hanging fire protection pipe on a Queens NY construction job site" loading="lazy" />
+                      <figcaption><b>Hanging fire protection pipe</b>Our threaded rod supporting fire protection pipe on a job site in Queens, NY.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--contain">
+                      <img src="assets/spec-rod-copper-duct-queens.jpg" alt="Threaded rod supporting copper pipe and HVAC duct on a Queens NY construction project" loading="lazy" />
+                      <figcaption><b>Hanging copper pipe and HVAC duct</b>Our threaded rod hanging copper pipe and HVAC duct on the same Queens, NY project.</figcaption>
+                    </figure>
+                    <span class="carousel-count" data-carousel-count aria-hidden="true">1 / 3</span>
+                    <button class="carousel-arrow carousel-arrow--prev" type="button" data-carousel-prev aria-label="Previous slide — on-image arrow">‹</button>
+                    <button class="carousel-arrow carousel-arrow--next" type="button" data-carousel-next aria-label="Next slide — on-image arrow">›</button>
+                  </div>
+                  <div class="carousel-controls">
+                    <button class="carousel-btn" type="button" data-carousel-prev aria-label="Previous slide">←</button>
+                    <div class="carousel-dots">
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-current="true" aria-label="Show slide 1 of 3 — Threaded Rod"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 2 of 3 — Hanging fire protection pipe, Queens, NY"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 3 of 3 — Hanging copper pipe and HVAC duct, Queens, NY"><i></i></button>
+                    </div>
+                    <button class="carousel-btn" type="button" data-carousel-next aria-label="Next slide">→</button>
+                  </div>
+                </div>
+                <div class="grille-props">
+                  <p class="props-label">Key Properties</p>
+                  <table class="spec">
+                    <tr><th>Diameters</th><td>3/8″, 1/2″ UNC Coarse Thread</td></tr>
+                    <tr><th>Length</th><td>6 ft</td></tr>
+                    <tr><th>Material Grade</th><td>Low Carbon Steel</td></tr>
+                    <tr><th>Plating Finish</th><td>Zinc Plated</td></tr>
+                    <tr><th>Packaging</th><td>50 pcs/bundle</td></tr>
+                  </table>
+                  <div class="spec-actions">
+                    <a class="btn rust" href="#quote-home">Request a Quote — Threaded Rod →</a>
+                  </div>
+                </div>
+            </div>
+          </article>
+
+          <article class="spec-block" id="spec-duct">
+            <div class="spec-block-head"><span class="spec-no">03 / 04</span><h4>Two-Piece Snap-Lock Rectangular Ductwork</h4></div>
+            <div class="grille-stack">
+                <div class="carousel" id="ductCarousel" aria-roledescription="carousel" aria-label="Two-piece snap-lock rectangular ductwork — photos and size chart in one carousel, one slide shown at a time">
+                  <div class="carousel-stage">
+                    <figure class="carousel-slide is-active">
+                      <img src="assets/spec-duct-assembly.jpg" alt="L-shaped galvanized duct pieces stacked in the warehouse, ready to snap together into rectangular trunk duct" />
+                      <figcaption><b>Two L-shaped pieces, snapped together</b>Two L-shaped pieces snap together for easy installation and shipping.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img src="assets/spec-duct-jobsite-pieces.jpg" alt="Two-piece snap duct sections laid out for assembly on a construction job site" loading="lazy" />
+                      <figcaption><b>Assembly on the job site</b>We do the assembly on the job site.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img src="assets/spec-duct-installed-brooklyn.jpg" alt="Two-piece snap rectangular duct installed on a Brooklyn NY construction job site" loading="lazy" />
+                      <figcaption><b>Installed on the job site</b>Our own two-piece snap duct installed on a job site in a 150+family apartment in Brooklyn, NY.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--chart">
+                      <div class="chart-slide-head"><b>Size Chart — Trunk Duct · 1 of 3</b><span>Two-Piece Snap-Lock Rectangular Ductwork · Width × Height × Length · Inches</span></div>
+                      <table class="chart">
+                        <thead><tr><th>Width (in)</th><th>Height (in)</th><th>Length (in)</th></tr></thead>
+                        <tbody>
+                          <tr><td>5</td><td>4</td><td>60</td></tr>
+                          <tr><td>6</td><td>4</td><td>60</td></tr>
+                          <tr><td>6</td><td>6</td><td>60</td></tr>
+                          <tr><td>8</td><td>4</td><td>60</td></tr>
+                          <tr><td>8</td><td>6</td><td>60</td></tr>
+                          <tr><td>8</td><td>8</td><td>60</td></tr>
+                          <tr><td>10</td><td>4</td><td>60</td></tr>
+                          <tr><td>10</td><td>6</td><td>60</td></tr>
+                          <tr><td>10</td><td>8</td><td>60</td></tr>
+                          <tr><td>10</td><td>10</td><td>60</td></tr>
+                          <tr><td>12</td><td>4</td><td>60</td></tr>
+                          <tr><td>12</td><td>6</td><td>60</td></tr>
+                          <tr><td>12</td><td>8</td><td>60</td></tr>
+                        </tbody>
+                      </table>
+                      <figcaption><b>Size chart — Trunk Duct (1 of 3)</b>Two-piece snap trunk duct size chart, page 1 of 3. Contact us for a quote and current availability.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--chart">
+                      <div class="chart-slide-head"><b>Size Chart — Trunk Duct · 2 of 3</b><span>Two-Piece Snap-Lock Rectangular Ductwork · Width × Height × Length · Inches</span></div>
+                      <table class="chart">
+                        <thead><tr><th>Width (in)</th><th>Height (in)</th><th>Length (in)</th></tr></thead>
+                        <tbody>
+                          <tr><td>12</td><td>10</td><td>60</td></tr>
+                          <tr><td>12</td><td>12</td><td>60</td></tr>
+                          <tr><td>14</td><td>6</td><td>60</td></tr>
+                          <tr><td>14</td><td>8</td><td>60</td></tr>
+                          <tr><td>14</td><td>10</td><td>60</td></tr>
+                          <tr><td>14</td><td>12</td><td>60</td></tr>
+                          <tr><td>16</td><td>6</td><td>60</td></tr>
+                          <tr><td>16</td><td>8</td><td>60</td></tr>
+                          <tr><td>16</td><td>10</td><td>60</td></tr>
+                          <tr><td>16</td><td>12</td><td>60</td></tr>
+                          <tr><td>18</td><td>6</td><td>60</td></tr>
+                          <tr><td>18</td><td>8</td><td>60</td></tr>
+                          <tr><td>18</td><td>10</td><td>60</td></tr>
+                        </tbody>
+                      </table>
+                      <figcaption><b>Size chart — Trunk Duct (2 of 3)</b>Two-piece snap trunk duct size chart, page 2 of 3. Contact us for a quote and current availability.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--chart">
+                      <div class="chart-slide-head"><b>Size Chart — Trunk Duct · 3 of 3</b><span>Two-Piece Snap-Lock Rectangular Ductwork · Width × Height × Length · Inches</span></div>
+                      <table class="chart">
+                        <thead><tr><th>Width (in)</th><th>Height (in)</th><th>Length (in)</th></tr></thead>
+                        <tbody>
+                          <tr><td>18</td><td>12</td><td>60</td></tr>
+                          <tr><td>20</td><td>6</td><td>60</td></tr>
+                          <tr><td>20</td><td>8</td><td>60</td></tr>
+                          <tr><td>20</td><td>10</td><td>60</td></tr>
+                          <tr><td>20</td><td>12</td><td>60</td></tr>
+                          <tr><td>22</td><td>6</td><td>60</td></tr>
+                          <tr><td>22</td><td>8</td><td>60</td></tr>
+                          <tr><td>22</td><td>10</td><td>60</td></tr>
+                          <tr><td>22</td><td>12</td><td>60</td></tr>
+                          <tr><td>24</td><td>6</td><td>60</td></tr>
+                          <tr><td>24</td><td>8</td><td>60</td></tr>
+                          <tr><td>24</td><td>10</td><td>60</td></tr>
+                          <tr><td>24</td><td>12</td><td>60</td></tr>
+                        </tbody>
+                      </table>
+                      <figcaption><b>Size chart — Trunk Duct (3 of 3)</b>Two-piece snap trunk duct size chart, page 3 of 3. Contact us for a quote and current availability.</figcaption>
+                    </figure>
+                    <span class="carousel-count" data-carousel-count aria-hidden="true">1 / 6</span>
+                    <button class="carousel-arrow carousel-arrow--prev" type="button" data-carousel-prev aria-label="Previous slide — on-image arrow">‹</button>
+                    <button class="carousel-arrow carousel-arrow--next" type="button" data-carousel-next aria-label="Next slide — on-image arrow">›</button>
+                  </div>
+                  <div class="carousel-controls">
+                    <button class="carousel-btn" type="button" data-carousel-prev aria-label="Previous slide">←</button>
+                    <div class="carousel-dots">
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-current="true" aria-label="Show slide 1 of 6 — Two L-shaped pieces, snapped together"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 2 of 6 — Assembly on the job site"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 3 of 6 — Installed on the job site, Brooklyn, NY"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 4 of 6 — Size chart, Trunk Duct, page 1 of 3"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 5 of 6 — Size chart, Trunk Duct, page 2 of 3"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 6 of 6 — Size chart, Trunk Duct, page 3 of 3"><i></i></button>
+                    </div>
+                    <button class="carousel-btn" type="button" data-carousel-next aria-label="Next slide">→</button>
+                  </div>
+                </div>
+                <div class="grille-props">
+                  <p class="props-label">Key Properties</p>
+                  <table class="spec">
+                    <tr><th>Material</th><td>Galvanized sheet steel</td></tr>
+                    <tr><th>Gauge</th><td>24 gauge</td></tr>
+                    <tr><th>Type</th><td>Rectangular trunk duct (straight duct), 60″ sections</td></tr>
+                    <tr><th>Sizes</th><td>See size chart in the carousel above</td></tr>
+                  </table>
+                  <div class="spec-actions">
+                    <a class="btn rust" href="#quote-home">Request a Quote — Rectangular Ductwork →</a>
+                  </div>
+                </div>
+            </div>
+          </article>
+
+          <article class="spec-block" id="spec-grille">
+            <div class="spec-block-head"><span class="spec-no">04 / 04</span><h4>PVC Supply / Return Air Grilles</h4></div>
+            <div class="grille-stack">
+                <div class="carousel" id="grilleCarousel" aria-roledescription="carousel" aria-label="PVC air grilles — photos and size chart in one carousel, one slide shown at a time">
+                  <div class="carousel-stage">
+                    <figure class="carousel-slide is-active">
+                      <img src="assets/spec-grille-02.jpg" alt="Large PVC return air grille with removable front panel and filter mesh for HVAC systems" />
+                      <figcaption><b>Large return air grille</b>Large PVC return air grille with removable face. It comes apart so the filter mesh can be cleaned easily.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img src="assets/spec-grille-01.jpg" alt="Small PVC return air grille for residential and commercial HVAC, multiple sizes available" loading="lazy" />
+                      <figcaption><b>Small return air grille</b>Small PVC return air grille: our return/supply air grilles are available in many sizes. Swipe to the last two slides for the full size chart.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img src="assets/spec-grille-supply-front-back.jpg" alt="PVC supply air grille front and back view for HVAC ductwork" loading="lazy" />
+                      <figcaption><b>Supply air grille — front and back</b>PVC supply air grille, front and back view.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--contain">
+                      <img src="assets/spec-grille-installed-queens.jpg" alt="PVC air grilles installed in a Queens NY apartment building HVAC project" loading="lazy" />
+                      <figcaption><b>Installed on our own job site</b>Installed on our own job site, a Queens, NY apartment building. PVC resists condensation (sweating) better than metal grilles.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--chart">
+                      <div class="chart-slide-head"><b>Size Chart — Supply Air</b><span>PVC Air Grilles · Length × Width · Inches</span></div>
+                      <table class="chart">
+                        <thead><tr><th>Length (in)</th><th>Width (in)</th></tr></thead>
+                        <tbody>
+                          <tr><td>24</td><td>4</td></tr>
+                          <tr><td>26</td><td>4</td></tr>
+                          <tr><td>26</td><td>6</td></tr>
+                          <tr><td>34</td><td>6</td></tr>
+                          <tr><td>36</td><td>4</td></tr>
+                          <tr><td>36</td><td>6</td></tr>
+                          <tr><td>48</td><td>4</td></tr>
+                          <tr><td>48</td><td>6</td></tr>
+                          <tr><td>60</td><td>4</td></tr>
+                          <tr><td>72</td><td>4</td></tr>
+                          <tr><td>72</td><td>6</td></tr>
+                          <tr><td>96</td><td>6</td></tr>
+                          <tr><td>24</td><td>3/4</td></tr>
+                          <tr><td>36</td><td>3/4</td></tr>
+                          <tr><td>48</td><td>3/4</td></tr>
+                          <tr><td>60</td><td>3/4</td></tr>
+                          <tr><td>72</td><td>3/4</td></tr>
+                          <tr><td>84</td><td>3/4</td></tr>
+                          <tr><td>96</td><td>3/4</td></tr>
+                        </tbody>
+                      </table>
+                      <figcaption><b>Size chart — Supply Air</b>Supply air grille size chart. Contact us for a quote and current availability.</figcaption>
+                    </figure>
+                    <figure class="carousel-slide carousel-slide--chart">
+                      <div class="chart-slide-head"><b>Size Chart — Return Air</b><span>PVC Air Grilles · Length × Width · Inches</span></div>
+                      <table class="chart">
+                        <thead><tr><th>Length (in)</th><th>Width (in)</th></tr></thead>
+                        <tbody>
+                          <tr><td>6</td><td>6</td></tr>
+                          <tr><td>8</td><td>8</td></tr>
+                          <tr><td>10</td><td>10</td></tr>
+                          <tr><td>16</td><td>6</td></tr>
+                          <tr><td>18</td><td>18</td></tr>
+                          <tr><td>26</td><td>6</td></tr>
+                          <tr><td>26</td><td>4</td></tr>
+                          <tr><td>24</td><td>12</td></tr>
+                          <tr><td>30</td><td>12</td></tr>
+                          <tr><td>24</td><td>14</td></tr>
+                          <tr><td>30</td><td>14</td></tr>
+                          <tr><td>36</td><td>6</td></tr>
+                          <tr><td>48</td><td>6</td></tr>
+                          <tr><td>24</td><td>24</td></tr>
+                        </tbody>
+                      </table>
+                      <figcaption><b>Size chart — Return Air</b>Return air grille size chart. Contact us for a quote and current availability.</figcaption>
+                    </figure>
+                    <span class="carousel-count" data-carousel-count aria-hidden="true">1 / 6</span>
+                    <button class="carousel-arrow carousel-arrow--prev" type="button" data-carousel-prev aria-label="Previous slide — on-image arrow">‹</button>
+                    <button class="carousel-arrow carousel-arrow--next" type="button" data-carousel-next aria-label="Next slide — on-image arrow">›</button>
+                  </div>
+                  <div class="carousel-controls">
+                    <button class="carousel-btn" type="button" data-carousel-prev aria-label="Previous slide">←</button>
+                    <div class="carousel-dots">
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-current="true" aria-label="Show slide 1 of 6 — Large return air grille"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 2 of 6 — Small return air grille"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 3 of 6 — Supply air grille, front and back view"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 4 of 6 — Installed on our own job site, Queens, NY"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 5 of 6 — Size chart, Supply Air"><i></i></button>
+                      <button class="carousel-dot" type="button" data-carousel-dot aria-label="Show slide 6 of 6 — Size chart, Return Air"><i></i></button>
+                    </div>
+                    <button class="carousel-btn" type="button" data-carousel-next aria-label="Next slide">→</button>
+                  </div>
+                </div>
+                <div class="grille-props">
+                  <p class="props-label">Key Properties</p>
+                  <table class="spec">
+                    <tr><th>Materials</th><td>PVC</td></tr>
+                    <tr><th>Types</th><td>Supply Air / Return Air</td></tr>
+                    <tr><th>Sizes</th><td>See size chart in the carousel above</td></tr>
+                  </table>
+                  <div class="spec-actions">
+                    <a class="btn rust" href="#quote-home">Request a Quote — PVC Air Grilles →</a>
+                  </div>
+                </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="sec dark" id="area-home">
+          <div class="sec-head"><span class="no">03</span><h3>Warehouse Pickup &amp; Local Delivery</h3></div>
+          <div class="two-col">
+            <div>
+              <h4>Two ways to get material</h4>
+              <ul class="tick-list">
+                <li><b>Warehouse pickup</b> — Staffed seven days a week, Monday to Sunday. Order ahead, load up and go.</li>
+                <li><b>Local delivery</b> — Delivered by our own full-time drivers, straight to your jobsite. We deliver as soon as possible after receiving your order.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Serving Greater New York</h4>
+              <p>We deliver across NYC, Long Island, Upper New York State, Connecticut, and New Jersey. Delivery depends on your exact location — <a href="#quote-home" style="color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:600">send us a quote</a> and we'll confirm.</p>
+              <ul class="area-list"><li>NYC</li><li>Long Island</li><li>Upper New York State</li><li>Connecticut</li><li>New Jersey</li></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec">
+          <div class="sec-head"><span class="no">04</span><h3>Our Story</h3></div>
+          <div style="max-width:680px;margin-top:10px">
+            <p style="font-size:clamp(20px,2.6vw,26px);font-weight:700;line-height:1.25;letter-spacing:-.02em;margin:0 0 20px;color:var(--ink)">Built by Contractors. For Contractors.</p>
+            <div style="font-size:16px;line-height:1.75;color:#2b2b2b;font-weight:500">
+              <p style="margin:0 0 16px">“We started as a construction company in New York. Over the years, we watched material costs climb while our margins disappeared.</p>
+              <p style="margin:0 0 16px">So we went looking for better options ourselves. We sourced globally, then opened our own factory and production line.</p>
+              <p style="margin:0 0 16px">Today, these products go into 20+ multifamily projects across New York City every year, for 5 years already.</p>
+              <p style="margin:0">Now we’re offering them to other contractors, with fewer hands in between, so you’re not paying for markups that don’t add value.”</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="quote" id="quote-home">
+          <h3>Request a Quote</h3>
+          <p>Send what you need — product, sizes, quantities, and where the job is.</p>
+          <form id="quote-form" novalidate onsubmit="handleQuoteSubmit(event)">
+            <div aria-hidden="true" class="hidden"><label for="website">Website</label><input autocomplete="off" id="website" tabindex="-1" type="text"></div>
+            <div class="qgrid">
+              <div class="qfield"><label for="company-name">Company Name</label><input id="company-name" type="text"></div>
+              <div class="qfield"><label for="contact-name">Your Name</label><input id="contact-name" type="text"></div>
+              <div class="qfield"><label for="email">Email</label><input aria-describedby="contact-error" id="email" type="email"></div>
+              <div class="qfield"><label for="phone">Phone</label><input aria-describedby="contact-error" id="phone" type="tel"></div>
+              <div class="qfield full"><label for="details">What Can We Help You With?</label><textarea id="details" name="details" placeholder="Tell us what you need." rows="4"></textarea></div>
+              <div class="qfield full"><label class="file-box"><span id="file-label">Click to attach file (.pdf, .xlsx, .dwg)</span><span class="file-hint">Maximum file size 25MB</span><input class="hidden" id="file-input" onchange="handleFileChange(event)" type="file"></label><p aria-live="polite" class="q-error hidden" id="file-error" role="alert"></p></div>
+            </div>
+            <p aria-live="polite" class="q-error hidden" id="contact-error" role="alert"></p>
+            <p aria-live="polite" class="q-error hidden" id="submission-error" role="alert"></p>
+            <button class="btn light" id="submit-btn" type="submit">Send Inquiry</button>
+          </form>
+          <div class="hidden form-success" id="form-success">
+            <p class="form-success-title">Quote Request Received</p>
+            <p>Thank you. An estimating manager will review your submission and contact you within 2 hours.</p>
+            <button class="form-success-again" onclick="resetQuoteForm()">Submit another request</button>
+          </div>
+        </div>
+
+        <footer class="site-foot">
+          <div class="foot-grid">
+            <div>
+              <p class="foot-name">VISTA MATERIAL SUPPLY</p>
+              <p class="foot-tag">Built by Contractors. For Contractors.</p>
+              <p class="foot-sub">Greater New York</p>
+            </div>
+            <div>
+              <p class="foot-head">Quick Links</p>
+              <ul class="foot-links">
+                <li><a href="#products-home">Our Products</a></li>
+                <li><a href="#specs-home">Product Specifications</a></li>
+                <li><a href="in-the-field.html">In the Field</a></li>
+                <li><a href="#quote-home">Request a Quote</a></li>
+              </ul>
+            </div>
+            <div>
+              <p class="foot-head">Contact</p>
+              <ul class="foot-contact">
+                <li>1 Garvies Point Rd, Glen Cove, NY 11542</li>
+                <li><a href="tel:+19298219368">(929) 821-9368</a></li>
+                <li><a href="mailto:info@vistamaterialsupply.com">info@vistamaterialsupply.com</a></li>
+                <li>Warehouse pickup · Monday–Sunday</li>
+              </ul>
+            </div>
+          </div>
+          <div class="foot-bottom">© 2026 Vista Material Supply. All rights reserved.</div>
+        </footer>
 </div>
-</section><main class="w-full flex-1 bg-white py-16 sm:py-20"><div class="max-w-7xl mx-auto px-6 sm:px-8"><div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-start"><!-- LEFT COLUMN: Main Catalog & Content (Approx 65% / 8 Cols) --><div class="lg:col-span-8 flex flex-col"><section class="flex flex-col gap-10 pb-14 sm:pb-20" id="our-products"><div class="pb-5 border-b border-black/10"><h1 class="text-3xl font-bold text-black tracking-tight">Our Products</h1></div><div class="grid grid-cols-1 sm:grid-cols-2 gap-8"><a class="group flex flex-col" href="#strut-channel"><div class="w-full aspect-[4/3] overflow-hidden mb-3 bg-white"><img alt="Strut Channel" class="w-full h-full object-cover group-hover:scale-[1.01] transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUGdCU0hMZB0nqcsYc7JAcIIrukt-tnDqgSxMXItL47IEYhxn3o3ZhOCVAO7HGL9quFbEq9g20u9yc3w3PaZqoOloziXwSabL57J6Wicm1VE_FKENSdP4KG04goUb9wcwR2Ontt-tZB27ToQzQzzTmij-s0QIbnMYABr8m3tygphVznTUx5st10M-lg6xCQxQ7gK3r-jkoQrTxiPmEuG6Ktg9OAZgNz4brnoU1eSmOAjY226rgrejZ_A"></div><h2 class="text-xl font-bold text-black transition-colors">Strut Channel</h2><p class="text-sm text-black leading-relaxed mt-1">14 gauge; Pre-galvanized; With slots</p><div class="text-sm text-black mt-1">Two options: 1-5/8" × 1-5/8" × 10' and 7/8" × 1-5/8" × 10'</div><div class="pt-3 flex items-center gap-1.5 text-sm font-bold text-black hover:underline"><span class="group-hover:text-black">View specifications</span><span class="text-black group-hover:translate-y-0.5 transition-transform">↓</span></div></a><a class="group flex flex-col" href="#threaded-rod"><div class="w-full aspect-[4/3] overflow-hidden mb-3 bg-white"><img alt="Threaded Rod" class="w-full h-full object-cover group-hover:scale-[1.01] transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsGVN2HMlrJR9ld-SGnIrBLcIEwwlnrOJUFcGvZW3VsW6oUpo38EAw3lMtlJPwHNkgGkvtnKMd0apLkjSTMiXh9UAjHe3TGdeLqGT7xwBBq-BsSsR2zhJI7Ww00v5yfovffl0k0Fuhd9JE6KbOGCeM_t-GWk5vvXS6DXitetWLZP2uNWWaNqBkCNe7CXfMl6r-tuAhiIYi6hyEs7XUrR-G_M9Y-fG_Fwk_N54yETLQTDgKh-V5ONiVmA"></div><h2 class="text-xl font-bold text-black transition-colors">Threaded Rod</h2><p class="text-sm text-black leading-relaxed mt-1">Threaded Screw Rod</p><div class="text-sm text-black mt-1">Two options: 3/8" x 6' &amp; 1/2" x 6'</div><div class="pt-3 flex items-center gap-1.5 text-sm font-bold text-black hover:underline"><span class="group-hover:text-black">View specifications</span><span class="text-black group-hover:translate-y-0.5 transition-transform">↓</span></div></a><a class="group flex flex-col" href="#hvac-ductwork"><div class="w-full aspect-[4/3] overflow-hidden mb-3 bg-white"><img alt="HVAC Ductwork" class="w-full h-full object-cover group-hover:scale-[1.01] transition-transform duration-300" src="assets/ductwork.jpg"></div><h2 class="text-xl font-bold text-black transition-colors">Two-Piece Snap-Lock Rectangular Ductwork</h2><p class="text-sm text-black leading-relaxed mt-1">Easier transportation and quick assembley on jobsites</p><div class="pt-3 flex items-center gap-1.5 text-sm font-bold text-black hover:underline"><span class="group-hover:text-black">View specifications</span><span class="text-black group-hover:translate-y-0.5 transition-transform">↓</span></div></a><a class="group flex flex-col" href="#air-grilles"><div class="w-full aspect-[4/3] overflow-hidden mb-3 bg-white"><img alt="Air Grilles &amp; Registers" class="w-full h-full object-cover group-hover:scale-[1.01] transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqitztiELD2WK9SPSfCQksGPhaqps0Go5Q6rG5KxOx1RGzGAKEbxaPYyj7FTCZAZCqBKElQ4f-DsUJvraHynmWzz-fvuSGQPE_eIqay8QUGwRetnPY8NC8H_o77teIfuaqjBBx_gfAubBx8BZrEZYqQfhueDobRXuqvdcdEic2RGIwh4Gbfpczbm8er6USc2MNsyVjlW3qM35zo06MHQEUYbUQd9-Nh3OxeHX5ZPXykoKNGdyEfylVcA"></div><h2 class="text-xl font-bold text-black transition-colors">PVC Air Grilles / Registers</h2><p class="text-sm text-black leading-relaxed mt-1">Made from durable PVC for long-lasting performance and reduced condensation</p><div class="pt-3 flex items-center gap-1.5 text-sm font-bold text-black hover:underline"><span class="group-hover:text-black">View specifications</span><span class="text-black group-hover:translate-y-0.5 transition-transform">↓</span></div></a></div><div class="pt-8 border-t border-black/10 flex flex-col sm:flex-row sm:items-start justify-between gap-6"><div class="flex flex-col gap-1.5 max-w-2xl"><div class="flex items-center gap-2"><span class="text-xs font-bold text-black uppercase tracking-wide">Additional Warehouse Stock &amp; Jobsite Supplies</span></div><p class="text-sm text-black leading-relaxed">In addition to our primary structural and HVAC lines, our Long Island warehouse stocks other essentials including <span class="text-black font-bold">Electrical Conduit</span>, <span class="text-black font-bold">Aluminum Foil Tape etc.</span></p><p class="text-xs text-black mt-1">Need specific gauges, fittings, or unlisted sizes? Mention them directly in the quote form on the right or attach your takeoffs schedule.</p></div><div class="shrink-0 sm:self-center"><a class="inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 bg-white border border-black/20 hover:border-black text-black transition-colors" href="#quote-form"><span>Inquire in Quote Form</span><span class="material-symbols-outlined text-sm">arrow_forward</span></a></div></div></section><section class="flex flex-col gap-16 py-14 sm:py-20 border-t border-black/10" id="product-specifications"><div class="pb-5 border-b border-black/10"><h2 class="text-3xl font-bold text-black tracking-tight">Product Specifications</h2></div><article class="scroll-mt-28 flex flex-col gap-6" id="strut-channel"><h3 class="text-2xl font-bold text-black">Strut Channel Systems</h3><div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start"><div class="md:col-span-5"><div class="w-full" data-product-carousel="strut"><div class="relative w-full aspect-[4/3] overflow-hidden bg-[#eeeeee] select-none"><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] " data-slide="0"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="1"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="2"></div><button aria-label="Previous image" class="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('strut', -1)" type="button"><span class="material-symbols-outlined text-xl">chevron_left</span></button><button aria-label="Next image" class="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('strut', 1)" type="button"><span class="material-symbols-outlined text-xl">chevron_right</span></button></div><div class="mt-3 flex items-center justify-center gap-2" data-carousel-dots><button aria-label="Show image 1" class="h-1.5 w-1.5 rounded-full bg-black transition-colors" data-carousel-dot="0" onclick="goToProductSlide('strut', 0)" type="button"></button><button aria-label="Show image 2" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="1" onclick="goToProductSlide('strut', 1)" type="button"></button><button aria-label="Show image 3" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="2" onclick="goToProductSlide('strut', 2)" type="button"></button></div></div></div><div class="md:col-span-7 flex flex-col"><table class="w-full text-left text-sm border-t border-border"><tbody class="divide-y divide-border"><tr><th class="py-3 pr-4 font-bold text-black w-1/3">Gauge Options</th><td class="py-3 px-4 text-black font-medium">&nbsp;14 Ga. (0.075")</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Dimensions</th><td class="py-3 px-4 text-black">1-5/8" x 1-5/8" Standard</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Length</th><td class="py-3 px-4 text-black">10 ft</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Finish</th><td class="py-3 px-4 text-black">Pre-Galvanized Zinc</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Packaging</th><td class="py-3 px-4 text-black">50 pcs / Bundle</td></tr></tbody></table><div class="mt-6 flex items-center"><button class="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" onclick="prefillQuote('Strut Channel')" style="background-color: rgb(36, 40, 43); color: rgb(255, 255, 255);" type="button">Request Quote for Strut Channel</button></div></div></div></article><div class="border-t border-border"></div><!-- NEW PRODUCT MODULE: 1-5/8" x 13/16" Shallow Strut Channel --><article class="scroll-mt-28 flex flex-col gap-6" id="shallow-strut-channel"><h3 class="text-2xl font-bold text-black">1-5/8" x 13/16" Shallow Strut Channel</h3><div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start"><div class="md:col-span-5"><div class="relative w-full aspect-[4/3] overflow-hidden bg-white group select-none" id="shallow-carousel-container"><!-- Top Status Badge --><div class="absolute top-3 left-3 z-20 pointer-events-none"><span class="bg-[#E35A1E] text-white text-[10px] sm:text-[11px] font-bold tracking-wide uppercase px-2.5 py-1 rounded shadow-sm">AVAILABILITY CONFIRMED BY QUOTE</span></div><!-- Counter Badge --><div class="absolute top-3 right-3 z-20 pointer-events-none"><span class="bg-black/60 backdrop-blur-sm text-white text-xs font-medium px-2.5 py-1 rounded-full shadow-sm" id="shallow-counter">1 / 4</span></div><!-- Slides Container --><div class="w-full h-full relative overflow-hidden bg-white" id="shallow-slides-wrapper"><!-- Blank Slide 1 (Active) --><div class="shallow-slide w-full h-full flex flex-col items-center justify-center p-6 text-center border-2 border-dashed border-border-subtle bg-white transition-opacity duration-300" data-slide="0"><span class="material-symbols-outlined text-3xl text-secondary/60 mb-2">add_photo_alternate</span><span class="text-xs font-semibold text-primary uppercase tracking-wide">Blank Slide 1 / 4</span><span class="text-[11px] text-secondary mt-1">Click or paste image here</span></div><!-- Blank Slide 2 --><div class="shallow-slide hidden w-full h-full flex flex-col items-center justify-center p-6 text-center border-2 border-dashed border-border-subtle bg-white transition-opacity duration-300" data-slide="1"><span class="material-symbols-outlined text-3xl text-secondary/60 mb-2">add_photo_alternate</span><span class="text-xs font-semibold text-primary uppercase tracking-wide">Blank Slide 2 / 4</span><span class="text-[11px] text-secondary mt-1">Click or paste image here</span></div><!-- Blank Slide 3 --><div class="shallow-slide hidden w-full h-full flex flex-col items-center justify-center p-6 text-center border-2 border-dashed border-border-subtle bg-white transition-opacity duration-300" data-slide="2"><span class="material-symbols-outlined text-3xl text-secondary/60 mb-2">add_photo_alternate</span><span class="text-xs font-semibold text-primary uppercase tracking-wide">Blank Slide 3 / 4</span><span class="text-[11px] text-secondary mt-1">Click or paste image here</span></div><!-- Blank Slide 4 --><div class="shallow-slide hidden w-full h-full flex flex-col items-center justify-center p-6 text-center border-2 border-dashed border-border-subtle bg-white transition-opacity duration-300" data-slide="3"><span class="material-symbols-outlined text-3xl text-secondary/60 mb-2">add_photo_alternate</span><span class="text-xs font-semibold text-primary uppercase tracking-wide">Blank Slide 4 / 4</span><span class="text-[11px] text-secondary mt-1">Click or paste image here</span></div></div><!-- Navigation Arrow: Previous --><button aria-label="Previous image" class="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-all focus:outline-none" onclick="switchBlankSlide(-1)" type="button"><span class="material-symbols-outlined text-lg sm:text-xl">chevron_left</span></button><!-- Navigation Arrow: Next --><button aria-label="Next image" class="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-all focus:outline-none" onclick="switchBlankSlide(1)" type="button"><span class="material-symbols-outlined text-lg sm:text-xl">chevron_right</span></button><!-- Bottom Indicator Dots Container --><div class="absolute bottom-2.5 inset-x-0 z-20 flex items-center justify-center gap-1.5 pointer-events-auto" id="shallow-dots-container"><button aria-label="Slide 1" class="h-1.5 transition-all duration-300 rounded-full w-5 bg-[#E35A1E]" onclick="goToBlankSlide(0)" type="button"></button><button aria-label="Slide 2" class="h-1.5 transition-all duration-300 rounded-full w-1.5 bg-neutral-400/80 hover:bg-neutral-600" onclick="goToBlankSlide(1)" type="button"></button><button aria-label="Slide 3" class="h-1.5 transition-all duration-300 rounded-full w-1.5 bg-neutral-400/80 hover:bg-neutral-600" onclick="goToBlankSlide(2)" type="button"></button><button aria-label="Slide 4" class="h-1.5 transition-all duration-300 rounded-full w-1.5 bg-neutral-400/80 hover:bg-neutral-600" onclick="goToBlankSlide(3)" type="button"></button></div><script>let activeBlankSlide = 0; function setBlankSlide(idx) { activeBlankSlide = (idx + 4) % 4; document.querySelectorAll('#shallow-carousel-container .shallow-slide').forEach((slide, i) => { if (i === activeBlankSlide) { slide.classList.remove('hidden'); } else { slide.classList.add('hidden'); } }); const counter = document.getElementById('shallow-counter'); if (counter) counter.textContent = (activeBlankSlide + 1) + ' / 4'; const dots = document.querySelectorAll('#shallow-dots-container button'); dots.forEach((dot, i) => { if (i === activeBlankSlide) { dot.className = 'h-1.5 transition-all duration-300 rounded-full w-5 bg-[#E35A1E]'; } else { dot.className = 'h-1.5 transition-all duration-300 rounded-full w-1.5 bg-neutral-400/80 hover:bg-neutral-600'; } }); } function switchBlankSlide(step) { setBlankSlide(activeBlankSlide + step); } function goToBlankSlide(idx) { setBlankSlide(idx); } window.changeShallowSlide = switchBlankSlide; window.goToShallowSlide = goToBlankSlide;</script></div></div><div class="md:col-span-7 flex flex-col"><table class="w-full text-left text-sm border-t border-border"><tbody class="divide-y divide-border"><tr><th class="py-3 pr-4 font-bold text-black w-1/3">Gauge Options</th><td class="py-3 px-4 text-black font-medium">14 Ga. (0.075") &amp; 12 Ga. (0.105")</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Dimensions</th><td class="py-3 px-4 text-black">1-5/8" Width x 13/16" Height (Shallow / Half-Slot)</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Length</th><td class="py-3 px-4 text-black">10 ft</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Finish</th><td class="py-3 px-4 text-black">Pre-Galvanized Zinc</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Packaging / Bundling</th><td class="py-3 px-4 text-black">50 pcs / Bundle</td></tr></tbody></table><div class="mt-6 flex items-center"><button class="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" onclick="prefillQuote('Shallow Strut Channel')" style="background-color: rgb(36, 40, 43); color: rgb(255, 255, 255);" type="button">Request Quote for Shallow Strut</button></div></div></div></article><div class="border-t border-border"></div><article class="scroll-mt-28 flex flex-col gap-6" id="threaded-rod"><h3 class="text-2xl font-bold text-black">Continuous Threaded Rod</h3><div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start"><div class="md:col-span-5"><div class="w-full" data-product-carousel="threaded"><div class="relative w-full aspect-[4/3] overflow-hidden bg-[#eeeeee] select-none"><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] " data-slide="0"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="1"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="2"></div><button aria-label="Previous image" class="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('threaded', -1)" type="button"><span class="material-symbols-outlined text-xl">chevron_left</span></button><button aria-label="Next image" class="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('threaded', 1)" type="button"><span class="material-symbols-outlined text-xl">chevron_right</span></button></div><div class="mt-3 flex items-center justify-center gap-2" data-carousel-dots><button aria-label="Show image 1" class="h-1.5 w-1.5 rounded-full bg-black transition-colors" data-carousel-dot="0" onclick="goToProductSlide('threaded', 0)" type="button"></button><button aria-label="Show image 2" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="1" onclick="goToProductSlide('threaded', 1)" type="button"></button><button aria-label="Show image 3" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="2" onclick="goToProductSlide('threaded', 2)" type="button"></button></div></div></div><div class="md:col-span-7 flex flex-col"><table class="w-full text-left text-sm border-t border-border"><tbody class="divide-y divide-border"><tr><th class="py-3 pr-4 font-bold text-black w-1/3">Diameters</th><td class="py-3 px-4 text-black font-medium">3/8", 1/2" UNC Coarse Thread</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Length</th><td class="py-3 px-4 text-black">6 ft</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Material Grade</th><td class="py-3 px-4 text-black">Low Carbon Steel</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Plating Finish</th><td class="py-3 px-4 text-black">Zinc Plated</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Packaging</th><td class="py-3 px-4 text-black">50 pcs/bundle</td></tr></tbody></table><div class="mt-6 flex items-center"><button class="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" onclick="prefillQuote('Threaded Rod')" style="background-color: rgb(36, 40, 43); color: rgb(255, 255, 255);" type="button">Request Quote for Threaded Rod</button></div></div></div></article><div class="border-t border-border"></div><article class="scroll-mt-28 flex flex-col gap-6" id="hvac-ductwork"><h3 class="text-2xl font-bold text-black">Two-Piece Snap-Lock Rectangular Ductwork</h3><div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start"><div class="md:col-span-5"><div class="w-full" data-product-carousel="ductwork"><div class="relative w-full aspect-[4/3] overflow-hidden bg-[#eeeeee] select-none"><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] " data-slide="0"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="1"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="2"></div><button aria-label="Previous image" class="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('ductwork', -1)" type="button"><span class="material-symbols-outlined text-xl">chevron_left</span></button><button aria-label="Next image" class="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('ductwork', 1)" type="button"><span class="material-symbols-outlined text-xl">chevron_right</span></button></div><div class="mt-3 flex items-center justify-center gap-2" data-carousel-dots><button aria-label="Show image 1" class="h-1.5 w-1.5 rounded-full bg-black transition-colors" data-carousel-dot="0" onclick="goToProductSlide('ductwork', 0)" type="button"></button><button aria-label="Show image 2" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="1" onclick="goToProductSlide('ductwork', 1)" type="button"></button><button aria-label="Show image 3" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="2" onclick="goToProductSlide('ductwork', 2)" type="button"></button></div></div></div><div class="md:col-span-7 flex flex-col"><table class="w-full text-left text-sm border-t border-border"><tbody class="divide-y divide-border"><tr><th class="py-3 pr-4 font-bold text-black w-1/3">Duct Types</th><td class="py-3 px-4 text-black font-medium">Spiral Round Duct, Rectangular Lock-Seam, Welded Exhaust</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Gauges Available</th><td class="py-3 px-4 text-black">26, 24, 22, 20, 18 Ga. Galvanized Sheet Steel (G90)</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Sizes</th><td class="py-3 px-4 text-black">See Chart on the left</td></tr></tbody></table><div class="mt-6 flex items-center"><button class="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" onclick="prefillQuote('HVAC Ductwork')" style="background-color: rgb(36, 40, 43); color: rgb(255, 255, 255);" type="button">Request Quote for HVAC Ductwork</button></div></div></div></article><div class="border-t border-border"></div><article class="scroll-mt-28 flex flex-col gap-6" id="air-grilles"><h3 class="text-2xl font-bold text-black">Supply/Return Air Grilles</h3><div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start"><div class="md:col-span-5"><div class="w-full" data-product-carousel="grilles"><div class="relative w-full aspect-[4/3] overflow-hidden bg-[#eeeeee] select-none"><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee]" data-slide="0"><img alt="Supply and return air grille product view 1" class="w-full h-full object-cover" decoding="async" loading="lazy" src="assets/grilles-01.jpg"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="1"><img alt="Supply and return air grille product view 2" class="w-full h-full object-cover" decoding="async" loading="lazy" src="assets/grilles-02.jpg"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="2"><img alt="Supply and return air grille product view 3" class="w-full h-full object-cover" decoding="async" loading="lazy" src="assets/grilles-03.jpg"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="3"><img alt="Supply and return air grille product view 4" class="w-full h-full object-cover" decoding="async" loading="lazy" src="assets/grilles-04.jpg"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="4"><img alt="Supply and return air grille product view 5" class="w-full h-full object-cover" decoding="async" loading="lazy" src="assets/grilles-05.jpg"></div><div class="product-carousel-slide absolute inset-0 w-full h-full bg-[#eeeeee] hidden" data-slide="5"><img alt="Supply and return air grille product view 6" class="w-full h-full object-cover" decoding="async" loading="lazy" src="assets/grilles-06.jpg"></div><button aria-label="Previous image" class="absolute left-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('grilles', -1)" type="button"><span class="material-symbols-outlined text-xl">chevron_left</span></button><button aria-label="Next image" class="absolute right-2.5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white" onclick="changeProductSlide('grilles', 1)" type="button"><span class="material-symbols-outlined text-xl">chevron_right</span></button></div><div class="mt-3 flex items-center justify-center gap-2" data-carousel-dots><button aria-label="Show image 1" class="h-1.5 w-1.5 rounded-full bg-black transition-colors" data-carousel-dot="0" onclick="goToProductSlide('grilles', 0)" type="button"></button><button aria-label="Show image 2" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="1" onclick="goToProductSlide('grilles', 1)" type="button"></button><button aria-label="Show image 3" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="2" onclick="goToProductSlide('grilles', 2)" type="button"></button><button aria-label="Show image 4" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="3" onclick="goToProductSlide('grilles', 3)" type="button"></button><button aria-label="Show image 5" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="4" onclick="goToProductSlide('grilles', 4)" type="button"></button><button aria-label="Show image 6" class="h-1.5 w-1.5 rounded-full bg-neutral-300 hover:bg-neutral-500 transition-colors" data-carousel-dot="5" onclick="goToProductSlide('grilles', 5)" type="button"></button></div></div></div><div class="md:col-span-7 flex flex-col"><table class="w-full text-left text-sm border-t border-border"><tbody class="divide-y divide-border"><tr><th class="py-3 pr-4 font-bold text-black w-1/3">Materials</th><td class="py-3 px-4 text-black font-medium">PVC</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Types</th><td class="py-3 px-4 text-black">Supply Air / Return Air</td></tr><tr><th class="py-3 pr-4 font-bold text-black">Sizes</th><td class="py-3 px-4 text-black">See Chart on the left</td></tr></tbody></table><div class="mt-6 flex items-center"><button class="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white text-sm font-medium px-5 py-2.5 rounded transition-colors" onclick="prefillQuote('Air Grilles')" style="background-color: rgb(36, 40, 43); color: rgb(255, 255, 255);" type="button">Request Quote for Air Grilles</button></div></div></div></article></section><section class="py-14 sm:py-20 border-t border-black/10" id="pickup-delivery"><div class="max-w-2xl"><h2 class="text-3xl font-bold text-black tracking-tight">Warehouse Pickup &amp; Local Delivery</h2><p class="mt-4 text-base leading-relaxed text-black">Pick up your order at our Long Island warehouse or arrange delivery directly to your jobsite or business.</p></div></section><section class="py-14 sm:py-20 border-t border-black/10" id="service-area"><div class="max-w-2xl"><h2 class="text-3xl font-bold text-black tracking-tight">Service Area</h2><p class="mt-4 text-base leading-relaxed text-black">Manhattan, Brooklyn, Queens, Bronx, Staten Island, Long Island (Nassau / Suffolk), and NJ &amp; CT &amp; other surrounding areas (available by quote).</p></div></section><section class="flex flex-col gap-10 py-14 sm:py-20 border-t border-black/10" id="our-story"><div class="pb-5 border-b border-black/10"><h2 class="text-3xl font-bold text-black tracking-tight">Our Story</h2></div><div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center"><div class="md:col-span-7 flex flex-col gap-5"><h3 class="text-2xl font-bold text-black">Built by Contractors. For Contractors.</h3><blockquote class="border-l-2 border-black pl-6 py-1 flex flex-col gap-4 text-black text-base leading-relaxed"><p>“We started as a construction company in New York. Over the years, we watched material costs climb while our margins disappeared.</p><p>So we went looking for better options ourselves. We sourced globally, then opened our own factory and production line.</p><p>Today, these products go into 20+ multifamily projects across New York City every year, most with 100+ units each. We’ve used them on our own job sites for 5 years.</p><p class="text-black font-bold">Now we’re offering them to other contractors, with fewer hands in between, so you’re not paying for markups that don’t add value.”</p></blockquote></div><div class="md:col-span-5"><div class="w-full aspect-[4/5] overflow-hidden bg-white"><img alt="Tradesmen installing framing on commercial project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCM74GxWO8eQjSA7ni3KrFEIk7Q96SbGI62rJsTByWFPpE0HOUz4pE4NB455JqEFFfDo0jeENGpsc8XInJI0WUtHXv3dkTZJdlHRa-v0kLtNALINe0OSlwKHqnj-vQ4JKWyVPtPlzLHDte2xgMmhEL1QsSEZiRVunvltn4r4_XVcRvYrIn0Lso6qs1so-0wmZR2RQk8x3tY8JIBP8lO-uIEs97wDerIjoFrOKk5z1Kj"></div></div></div></section></div><!-- RIGHT COLUMN: Sticky Quote Form (Approx 35% / 4 Cols) --><aside class="lg:col-span-4 lg:sticky lg:top-28 flex flex-col gap-6"><div class="lg:border-l lg:border-black/10 lg:pl-8"><div class="pb-4 border-b border-border mb-5"><h2 class="text-xl font-bold text-black tracking-tight">Request a Quote</h2></div><form class="flex flex-col gap-4" id="quote-form" novalidate onsubmit="handleQuoteSubmit(event)"><div aria-hidden="true" class="hidden"><label for="website">Website</label><input autocomplete="off" id="website" tabindex="-1" type="text"></div><div class="flex flex-col gap-1.5"><label class="text-xs font-bold text-black" for="company-name">Company Name</label><input class="w-full rounded-sm border-neutral-300 bg-white px-3 py-2 text-sm text-black placeholder:text-neutral-500 focus:border-black focus:ring-1 focus:ring-black focus:bg-white transition-colors" id="company-name" type="text"></div><div class="flex flex-col gap-1.5"><label class="text-xs font-bold text-black" for="contact-name">Your Name</label><input class="w-full rounded-sm border-neutral-300 bg-white px-3 py-2 text-sm text-black placeholder:text-neutral-500 focus:border-black focus:ring-1 focus:ring-black focus:bg-white transition-colors" id="contact-name" type="text"></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-3"><div class="flex flex-col gap-1.5"><label class="text-xs font-bold text-black" for="email">Email</label><input class="w-full rounded-sm border-neutral-300 bg-white px-3 py-2 text-sm text-black placeholder:text-neutral-500 focus:border-black focus:ring-1 focus:ring-black focus:bg-white transition-colors" aria-describedby="contact-error" id="email" type="email"></div><div class="flex flex-col gap-1.5"><label class="text-xs font-bold text-black" for="phone">Phone</label><input class="w-full rounded-sm border-neutral-300 bg-white px-3 py-2 text-sm text-black placeholder:text-neutral-500 focus:border-black focus:ring-1 focus:ring-black focus:bg-white transition-colors" aria-describedby="contact-error" id="phone" type="tel"></div></div><p aria-live="polite" class="hidden text-xs leading-relaxed text-red-700" id="contact-error" role="alert"></p><div class="flex flex-col gap-1.5"><label class="text-xs font-bold text-black" for="details">What Can We Help You With?</label><textarea class="w-full rounded-sm border-neutral-300 bg-white px-3 py-2 text-sm text-black placeholder:text-neutral-500 focus:border-black focus:ring-1 focus:ring-black focus:bg-white transition-colors resize-none" id="details" name="details" placeholder="Tell us what you need." rows="4"></textarea></div><div class="flex flex-col gap-1.5"><label class="text-xs font-bold text-black">Attach a File (Optional)</label><label class="flex flex-col items-center justify-center p-3 rounded-sm border border-dashed border-neutral-300 hover:border-black bg-white hover:bg-neutral-50 cursor-pointer transition-colors text-center"><span class="text-xs font-bold text-black" id="file-label">Click to attach file (.pdf, .xlsx, .dwg)</span><span class="text-[11px] text-black mt-0.5">Maximum file size 25MB</span><input class="hidden" id="file-input" onchange="handleFileChange(event)" type="file"></label><p aria-live="polite" class="hidden text-xs leading-relaxed text-red-700" id="file-error" role="alert"></p></div><p aria-live="polite" class="hidden text-xs leading-relaxed text-red-700" id="submission-error" role="alert"></p><button class="mt-2 w-full bg-black hover:bg-neutral-800 text-white font-bold py-2.5 px-4 rounded text-sm transition-colors" id="submit-btn" type="submit">Send Inquiry</button></form><div class="hidden pt-4 flex flex-col items-center text-center" id="form-success"><div class="w-10 h-10 rounded-full bg-neutral-100 flex items-center justify-center mb-3"><span class="material-symbols-outlined text-black text-xl">done</span></div><span class="text-base font-bold text-black">Quote Request Received</span><p class="text-sm text-black mt-1">Thank you. An estimating manager will review your submission and contact you within 2 hours.</p><button class="mt-4 text-sm font-bold text-black hover:underline" onclick="resetQuoteForm()">Submit another request</button></div></div></aside></div></div></main><footer class="w-full bg-[#1f2529] text-white mt-0"><div class="max-w-7xl mx-auto px-6 sm:px-8 py-12"><div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8"><div class="flex flex-col gap-2"><h4 class="text-base font-bold text-white tracking-tight">Vista Material Supply</h4><p class="text-sm text-white/70">Construction Materials Supply</p><p class="text-sm text-white/70">Serving Greater New York &amp; Surrounding Areas</p><p class="text-sm text-white/70">Warehouse Pickup &amp; Local Delivery</p></div><div class="flex flex-col gap-2 md:items-end md:text-right"><span class="text-xs font-bold text-white/70 uppercase tracking-wide">Contact</span><div class="text-sm text-white/70">Phone: <a class="text-white font-bold hover:underline" href="tel:9298219368">(929) 821-9368</a></div><div class="text-sm text-white/70">Email: <a class="text-white font-bold hover:underline" href="mailto:joeyliu22221@gmail.com">joeyliu22221@gmail.com</a></div><div class="text-sm text-white/70">Location: <span class="text-white font-bold">1 Garvies Point Rd, Glen Cove, NY 11542</span></div></div></div><div class="pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/60"><span>© 2026 Vista Material Supply. All rights reserved.</span><a class="text-white/80 font-medium hover:text-white hover:underline transition-colors" href="#">Privacy Policy</a></div></div></footer><script>
-  /* Shallow Strut Carousel */
-  const shallowImages = [
-    {
-      src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAWz174-BjvQywd-4BuqO5nSOFFritxGP9o7nA8xaBmnvEJ-gvNIySTNImY6f_4U0V1jYqkKNJCy6layTAp9KQk1TFoGKDwqtSaHKSijT03ABU1q93YTuLoF8P4j-YoP0-36-MtnxcUZB6kuGxsQZIxt2wcWfxRqSo1H0E34wDlcNc2w5-JFlUttE_22Wicw4fRxBjK1A3vf0dJO6zqyJXQfUmY-__TGjQ1LRBWBoFL",
-      alt: "Commercial shallow strut channel 1-5/8\" x 13/16\" warehouse product shot",
-      fit: "object-cover"
-    },
-    {
-      src: "https://lh3.googleusercontent.com/aida-public/AB6AXuB5NIVpdcl9-mu7ctFxJh8XJSfyjOXVbjiprr8GacofdJpcyRDPLWcN3b8ANUCGfrBF4Sav1R_s1Sh5avz4whF1WE5LYsHYXG2KfCZPKtpTZoTBwLmGIg9Aiuqtj-k-OT7mJV3k1aOzvpPbJJf0SkWZZsqqGbZYqDxVcgNRYfiRnXyrJpNdDTLM68fmDLU53vSRPPkIS7cDyjK0IG0G_T8F_4El7lx6y6G9nGCvch3T",
-      alt: "Jobsite installation closeup of shallow strut channel mounted on ceiling",
-      fit: "object-cover"
-    },
-    {
-      src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDaF4RqCaC5Wr93ivlNSXsLedCO6p0nyyOEK54VkCqc-VfEU_JOQtXv89cEpMeEXA2xvimsPjwfV6it0ud7_wgDKI2yKRGFdKqjywQJI4rWogqSBPKyR_B-GvVM6Ao_7KiqG4muMgxSmWLemstwhq2SEo5KYW18mT9r4yHeOH83391OVPOM2q_d0U6i2YXbRAvUznJRWNYaTRkXc1c_vNcNu-zYITRPsckfoy_Bcc-yiJfDhlWwwpm-Og",
-      alt: "1-5/8 slotted shallow strut channel profile angle",
-      fit: "object-contain p-2"
+<script>
+function initCarousel(root){
+    if(!root) return;
+    var slides = Array.prototype.slice.call(root.querySelectorAll('.carousel-slide'));
+    var dots = Array.prototype.slice.call(root.querySelectorAll('[data-carousel-dot]'));
+    var count = root.querySelector('[data-carousel-count]');
+    var total = slides.length, idx = 0, startX = null;
+    function show(n){
+      idx = ((n % total) + total) % total;
+      slides.forEach(function(s, i){ s.classList.toggle('is-active', i === idx); });
+      dots.forEach(function(d, i){
+        if(i === idx){ d.setAttribute('aria-current', 'true'); } else { d.removeAttribute('aria-current'); }
+      });
+      if(count) count.textContent = (idx + 1) + ' / ' + total;
     }
-  ];
-
-  let currentShallowIndex = 0;
-
-  function updateShallowCarousel() {
-    const imgEl = document.getElementById('shallow-main-img');
-    const counterEl = document.getElementById('shallow-counter');
-    const dotsContainer = document.getElementById('shallow-dots-container');
-
-    if (!imgEl || !counterEl || !dotsContainer) return;
-
-    imgEl.style.opacity = '0';
-    setTimeout(() => {
-      imgEl.src = shallowImages[currentShallowIndex].src;
-      imgEl.alt = shallowImages[currentShallowIndex].alt;
-      imgEl.className = 'w-full h-full ' + shallowImages[currentShallowIndex].fit + ' transition-opacity duration-300';
-      imgEl.style.opacity = '1';
-    }, 150);
-
-    counterEl.textContent = `${currentShallowIndex + 1} / ${shallowImages.length}`;
-
-    const dots = dotsContainer.querySelectorAll('button');
-    dots.forEach((dot, idx) => {
-      if (idx === currentShallowIndex) {
-        dot.className = 'h-1.5 transition-all duration-300 rounded-full w-5 bg-[#E35A1E]';
-      } else {
-        dot.className = 'h-1.5 transition-all duration-300 rounded-full w-1.5 bg-neutral-400/80 hover:bg-neutral-600';
-      }
+    // Both arrow sets drive the carousel: the small chevrons on the
+    // left and right edges of the image itself, and the prev / next
+    // buttons flanking the progress bar below it.
+    Array.prototype.forEach.call(root.querySelectorAll('[data-carousel-prev]'), function(b){
+      b.addEventListener('click', function(){ show(idx - 1); });
     });
-  }
-
-  function changeShallowSlide(step) {
-    currentShallowIndex = (currentShallowIndex + step + shallowImages.length) % shallowImages.length;
-    updateShallowCarousel();
-  }
-
-  function goToShallowSlide(index) {
-    if (index >= 0 && index < shallowImages.length) {
-      currentShallowIndex = index;
-      updateShallowCarousel();
-    }
-  }
-
-
-  const productCarouselIndexes = {
-    strut: 0,
-    threaded: 0,
-    ductwork: 0,
-    grilles: 0
-  };
-
-  function setProductSlide(product, index) {
-    const carousel = document.querySelector(`[data-product-carousel="${product}"]`);
-    if (!carousel) return;
-
-    const slides = carousel.querySelectorAll('.product-carousel-slide');
-    const dots = carousel.querySelectorAll('[data-carousel-dot]');
-    if (!slides.length) return;
-
-    const nextIndex = (index + slides.length) % slides.length;
-    productCarouselIndexes[product] = nextIndex;
-
-    slides.forEach((slide, slideIndex) => {
-      slide.classList.toggle('hidden', slideIndex !== nextIndex);
+    Array.prototype.forEach.call(root.querySelectorAll('[data-carousel-next]'), function(b){
+      b.addEventListener('click', function(){ show(idx + 1); });
     });
-
-    dots.forEach((dot, dotIndex) => {
-      const isActive = dotIndex === nextIndex;
-      dot.classList.toggle('bg-black', isActive);
-      dot.classList.toggle('bg-neutral-300', !isActive);
-      dot.classList.toggle('hover:bg-neutral-500', !isActive);
+    dots.forEach(function(d, i){ d.addEventListener('click', function(){ show(i); }); });
+    root.addEventListener('keydown', function(e){
+      if(e.key === 'ArrowLeft'){ show(idx - 1); }
+      if(e.key === 'ArrowRight'){ show(idx + 1); }
     });
+    var stage = root.querySelector('.carousel-stage');
+    stage.addEventListener('touchstart', function(e){ startX = e.changedTouches[0].clientX; }, {passive:true});
+    stage.addEventListener('touchend', function(e){
+      if(startX === null) return;
+      var dx = e.changedTouches[0].clientX - startX;
+      if(Math.abs(dx) > 40) show(idx + (dx < 0 ? 1 : -1));
+      startX = null;
+    }, {passive:true});
+    show(0);
   }
-
-  function changeProductSlide(product, step) {
-    setProductSlide(product, productCarouselIndexes[product] + step);
-  }
-
-  function goToProductSlide(product, index) {
-    setProductSlide(product, index);
-  }
-
-  function prefillQuote(productName) {
-    const detailsField = document.getElementById('details');
-    if (!detailsField) return;
-
-    const productMessage = `I'm interested in ${productName}.`;
-    const currentDetails = detailsField.value.trim();
-
-    if (!currentDetails) {
-      detailsField.value = productMessage;
-    } else if (!currentDetails.includes(productName)) {
-      detailsField.value = `${currentDetails}\n${productMessage}`;
-    }
-
-    detailsField.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    detailsField.focus({ preventScroll: true });
-  }
-
+  initCarousel(document.getElementById('grilleCarousel'));
+  initCarousel(document.getElementById('ductCarousel'));
+  initCarousel(document.getElementById('rodCarousel'));
+</script>
+<script>
   function handleFileChange(event) {
     const input = event.target;
     const label = document.getElementById('file-label');
@@ -306,6 +867,5 @@
     });
   });
 </script>
-
-
-</body></html>
+</body>
+</html>
